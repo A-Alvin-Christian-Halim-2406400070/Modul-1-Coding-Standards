@@ -29,7 +29,7 @@ public class ProductRepository {
         return null;
     }
 
-    public Product findById(String productId) {
+    public Product findProductById(String productId) {
         for (Product product : productData) {
             if (product.getProductId().equals(productId)) {
                 return product;
